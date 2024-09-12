@@ -1,0 +1,246 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-color: #e6f3fb;
+}
+
+.containerDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.slika {
+  display: flex;
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+
+}
+
+/* Stilovi za podsetnik */
+
+.podsetnik {
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+
+.pokreni,
+.zaustavi {
+  width: 200px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #68c1f8;
+  font-weight: 600;
+  color: #043f59;
+  border: none;
+
+}
+
+.pokreni:hover,
+.zaustavi:hover {
+  background-color: #42b0f5;
+  font-size: 14.5px;
+  border: 1px solid black;
+
+}
+
+.savetpar {
+  margin-top: 0px;
+  margin-left: 0px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #2884ac;
+  font-weight: 600;
+}
+
+
+
+.forma {
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #2884ac;
+
+}
+
+input,
+select,
+button {
+  width: 50%;
+  padding: 16px 20px;
+  border: 0.5px solid #2884ac;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  color: #043f59;
+}
+
+select {
+  width: 56%;
+
+}
+
+option {
+  background-color: #3ed8d5d9;
+  font-size: 20px ;
+  color: #ffffff;
+}
+
+.izracunaj,
+.ponisti {
+  padding: 10px;
+  margin: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 800;
+}
+
+.izracunaj {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.izracunaj:hover {
+  background-color: green;
+  border: 1px solid black;
+}
+
+.ponisti {
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ponisti:hover {
+  background-color: red;
+  border: 1px solid black;
+}
+
+
+.obrisiPoslednje {
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 250px;
+  margin-top: 20px;
+  position: relative;
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.obrisiPoslednje:hover {
+  background-color: red;
+  border: 1px solid black;
+}
+
+/* Stilovi za cilj i trenutnu količinu */
+
+.cilj,
+p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #2884ac;
+  font-weight: 600;
+}
+
+.malaCasa {
+  width: 70px;
+  height: 120px;
+  border: 2px solid #2884ac;
+  border-radius: 0 0 25px 25px;
+  background-color: #87CEFA;
+  margin: 20px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #2884ac;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.srednjaCasa {
+  width: 80px;
+  height: 140px;
+  border: 2px solid #2884ac;
+  border-radius: 0 0 30px 30px;
+  background-color: #87CEFA;
+  margin: 20px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #2884ac;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.casa500ml {
+  width: 90px;
+  height: 150px;
+  border: 2px solid #2884ac;
+  border-radius: 0 0 35px 35px;
+  background-color: #87CEFA;
+  margin: 20px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #2884ac;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.malaCasa:hover,
+.srednjaCasa:hover,
+.casa500ml:hover {
+  background-color: #53bafb;
+}
+
+
+.velikaCasa {
+  width: 120px;
+  height: 220px;
+  background-color: #fff;
+  border: 2px solid #2884ac;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 40px 40px;
+}
+
+.popunaCase {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #87CEFA;
+
+}
+
+
+.caseDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
